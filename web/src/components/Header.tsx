@@ -36,6 +36,7 @@ export function Header() {
                         </Dialog.Close>
                         {/* <Dialog.title className={'text-3xl leading-tight font-bold font-extrabold'}>Criar Habito</Dialog.title> */}
                     </Dialog.Content>
+
                     <NewHabitForm />
                 </Dialog.Portal>
             </Dialog.Root>
