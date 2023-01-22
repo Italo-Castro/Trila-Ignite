@@ -12,6 +12,6 @@ app.register(appRoutes);
 app.listen({
     port: 3333
 }).then(() => {
-    console.log('HTTP Server Runing!')
+    console.log('HTTP Server Runing! in port 3333',)
 })
 
