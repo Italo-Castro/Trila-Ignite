@@ -1,9 +1,9 @@
-import { View, Text, ScrollView, Alert } from "react-native";
-import React, { useEffect, useState } from "react";
+import { View, Text, ScrollView, Alert } from "react-native"
+import React, { useCallback, useState } from "react";
 import { DAY_SIZE, HabitDay } from "../components/HabitDay";
 import { Header } from "../components/Header";
 import { generateDatesFromYearBeginning } from '../utils/generate-dates-from-year-beginning.ts';
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation, useFocusEffect } from "@react-navigation/native";
 import { api } from '../lib/axios';
 import { Loading } from "../components/Loading";
 import dayjs from "dayjs";
@@ -28,9 +28,10 @@ export function Home() {
     const [loading, setLoading] = useState(false);
     const [summary, setSummary] = useState<SumarryProps | null>(null);
 
-    useEffect(() => {
+    useFocusEffect(useCallback(() => {
         fetcData()
-    }, [])
+    }, []))
+
 
 
     async function fetcData() {
@@ -83,7 +84,7 @@ export function Home() {
                                         key={date.toISOString()}
                                         date={date}
                                         amountOfHabits={dayWithHabits?.amount}
-                                        amountCompletede={dayWithHabits?.completeded}
+                                        amountCompleted={dayWithHabits?.completeded}
                                         onPress={() => navigate('habit', { data: date.toISOString() })}
                                     />
                                 )

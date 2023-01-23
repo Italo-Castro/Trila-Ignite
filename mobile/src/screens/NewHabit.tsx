@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, ScrollView, Text, TextInput, TouchableOpacity, Alert } from "react-native";
 import { BackButton } from "../components/BackButton";
-import { CheckBox } from "../components/Checkbox";
+import { CheckBox } from "../components/CheckBox";
 import { Feather } from '@expo/vector-icons';
 import colors from "tailwindcss/colors";
 import { api } from "../lib/axios";
