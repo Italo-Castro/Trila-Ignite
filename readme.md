@@ -44,16 +44,14 @@ A api do back-end foi consumida por ambos os sitemas web e mobile.
 
 ### Web
 
-| Home                        | New Habit Modal             |
+| Home                        | Criar Habíto Modal          |
 | --------------------------- | --------------------------- |
-| <img src="![DiaEspecifico](https://user-images.githubusercontent.com/72866245/214185211-c104eadb-87e7-4bc9-a9a3-a012e8728765.png)" /> | <img src="" /> |
+| <img src="https://user-images.githubusercontent.com/72866245/214185216-288381d7-ab8c-44ab-bfd8-dcafb48aba4c.png" /> | <img src="https://user-images.githubusercontent.com/72866245/214185223-435f6ef1-f17d-4b7f-8e86-24a2bbeac84a.png" /> |
 
 ### Mobile
 
-| Home                        | New Habit Modal             |
+| Tela Inicial                | Criar Habíto Modal          |
 | --------------------------- | --------------------------- |
-| <img src="https://github.com/Wallysson/habits/blob/main/assets/Mobile-Home.png" width='275px'/> | <img src="https://github.com/Wallysson/habits/blob/main/assets/Mobile-NewHabit.png" width='275px'/> |
+| <img src="https://user-images.githubusercontent.com/72866245/214185219-840521c2-91cc-45b8-bb2f-f5ec17094228.png" width='275px'/> | <img src="https://user-images.githubusercontent.com/72866245/214185226-a40f4f1a-9440-4344-8e22-916c28dbfa89.png" width='275px'/> |
 
-| Specific Day                        | No Specific Day             |
-| --------------------------- | --------------------------- |
-| <img src="https://github.com/Wallysson/habits/blob/main/assets/Mobile-SpecificDay.png" width='275px'/> | <img src="https://github.com/Wallysson/habits/blob/main/assets/Mobile-NoSpecificDay.png" width='275px'/> |
+
