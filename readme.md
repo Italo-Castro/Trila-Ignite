@@ -46,7 +46,7 @@ A api do back-end foi consumida por ambos os sitemas web e mobile.
 
 | Home                        | New Habit Modal             |
 | --------------------------- | --------------------------- |
-| <img src="" /> | <img src="" /> |
+| <img src="![DiaEspecifico](https://user-images.githubusercontent.com/72866245/214185211-c104eadb-87e7-4bc9-a9a3-a012e8728765.png)" /> | <img src="" /> |
 
 ### Mobile
 
